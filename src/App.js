@@ -1,5 +1,6 @@
 // import React from "react";
 import "./App.css";
+import AppRedux from "./react-redux-practice/AppTwo";
 // import Home from "./Home";
 // import HomeF from "./Home/index_functional";
 // import ComponentDid_Mount from "./Life-cycle/ComponentDid_Mount.js";
@@ -14,11 +15,12 @@ import "./App.css";
 // import First from "./memo/First";
 // import LazyLoading from "./lazy-loading/LazyLoading"
 // import PropTypeCheck from "./propType/PropTypeCheck";
+import AppTwo from "./react-redux-practice/AppTwo";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <PropTypeCheck data1={'20'} /> */}
+        <AppTwo data1={'20'} />
       </header>
     </div>
   );
